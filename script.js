@@ -22,7 +22,7 @@ $(document).ready(function(){
       
       getRandomInt(10, 20);
       var text = $('#text').val();
-        $('.header__link:last').after('<li class="header__link header__link-bg'+ random +'"><div class="header__checkbox"><input id="checkbox" type="checkbox" name="check1" value="1"></div><div class="header__text"><h2> ' + text + ' </h2></div></li>').fadeIn('slow').appendTo('ul.header__items');
+        $('ul.header__items').append('<li class="header__link header__link-bg'+ random +'"><div class="header__checkbox"><input id="checkbox" type="checkbox" name="check1" value="1"></div><div class="header__text"><h2> ' + text + ' </h2></div></li>').appendTo('ul.header__items');
       
     // second task
 
