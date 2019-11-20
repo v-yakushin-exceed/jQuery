@@ -34,6 +34,7 @@ $(document).ready(function(){
           }
         });
 
+        $('#text').val('');
 
     });
         
@@ -53,8 +54,8 @@ $(document).ready(function(){
       $('.piker__link').click(function() {
         var click = $(this).attr('id');
         $('.active').removeClassWild('active*');
-          $('.active').removeClassWild('header__link-bg*');
-          $('.active').addClass('active'+ click +'');
+        $('.active').removeClassWild('header__link-bg*');
+        $('.active').addClass('active'+ click +'');
       });
 });
 
