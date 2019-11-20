@@ -11,8 +11,6 @@ $(document).ready(function(){
          $(this).parent().parent().removeClass('active');
         }
      });
-
-   // first task
     
     $('#add').click(function() {
       function getRandomInt(min, max) {
@@ -41,13 +39,6 @@ $(document).ready(function(){
         
     // second task
 
-    //  var arr=$('input:checkbox:checked').map(function() {return this.value;}).get();
-
-    //  var color = $('.piker__link').click(function() {
-    //    var clickId = $(this).attr('id');
-    //  });
-
-
      // jQuery - Remove all classes with similar names
 
       (function($) {
@@ -59,22 +50,12 @@ $(document).ready(function(){
         };
     })(jQuery);
 
-    //  $('.active').addClass('.active1');
-
       $('.piker__link').click(function() {
-        var color = $('.piker__link').click(function() {
-          var clickId = $(this).attr('id');
-          $('.active').removeClassWild('active*');
+        var click = $(this).attr('id');
+        $('.active').removeClassWild('active*');
           $('.active').removeClassWild('header__link-bg*');
-          $('.active').addClass('active'+ clickId +'');
-        });
+          $('.active').addClass('active'+ click +'');
       });
-
-    
-
-
-
-
 });
 
 
