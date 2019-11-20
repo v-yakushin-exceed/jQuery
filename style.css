@@ -1,0 +1,178 @@
+body{
+    width: 100%;
+    margin: 20px;
+    background: #ebf3f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer{
+    display: flex;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #fff;
+    border-radius: 5px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+h2{
+    color: #dedede;
+}
+
+.header__items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+.header__link-bg1, .active1{
+    background: #ee6a68;
+}
+
+.header__link-bg2, .active2{
+    background: #f077a2;
+}
+
+.header__link-bg3, .active3{
+    background: #8f6dcb;
+}
+
+.header__link-bg4, .active4{
+    background: #5eb3f6;
+}
+
+.header__link-bg5, .active5{
+    background: #67d7e5;
+}
+
+.header__link-bg6, .active6{
+    background: #ffe083;
+}
+
+.header__checkbox{
+    padding: 20px;
+}
+
+.header__checkbox input{
+    cursor: pointer;
+    background: #dedede;
+}
+
+.header__text{
+    padding: 0 20px;
+    border-left: 1px solid #dedede;
+}
+
+.footer__items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+
+.footer__text{
+    padding: 0 20px;
+}
+
+.footer__text input{
+    border: none;
+    font-size: 22px;
+    outline: none;
+    color: #6f7c85;
+}
+
+.footer__text input:focus{
+    border: none;
+}
+
+.footer__add{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.footer__btn button{
+    padding: 10px 20px;
+    background: #26a59a;
+    cursor: pointer;
+    color: #dedede;
+    font-size: 18px;
+    border: 2px solid #369e93;
+    border-radius: 5px;
+}
+
+.footer__btn button:hover{
+    transition: .5s all;
+    background: #308a81;
+    color: #fff;
+    border: 2px solid #7dc3bb;
+}
+
+.footer__piker{
+    margin: 10px;
+}
+
+.piker__items{
+    display: flex;
+    flex-direction: row;
+}
+
+.piker__link{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 240, 239, 0.1);
+}
+
+.piker__link:hover{
+    border: 1px solid rgba(255, 240, 239, 1);
+    transition: .5s;
+}
+
+.piker__link-1{
+    background: #ef6e69;
+}
+
+.piker__link-2{
+    background: #f279a2;
+}
+
+.piker__link-3{
+    background: #9170cb;
+}
+
+.piker__link-4{
+    background: #5eb3f6;
+}
+
+.piker__link-5{
+    background: #67d7e5;
+}
+
+.piker__link-6{
+    background: #ffe083;
+}
